@@ -1,0 +1,11 @@
+<%= form_with :model => @place do |form| %>
+  <p>
+    <%= form.label "city", "City" %>
+    <%= form.text_field "city" %>
+  </p>
+  <p>
+    <%= form.label "country" %>
+    <%= form.text_field "country" %>
+  </p>
+  <%= form.submit %>
+<% end %>
