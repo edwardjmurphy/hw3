@@ -1,9 +1,9 @@
-<h1>My Travel Journal</h1>
+<h2>My Travel Journal</h2>
  
  <ul>
    <% for place in @places %>
     <li>
-      <a href="/places/<%= place["id"] %>"><%= place["city"] %></a>
+      <a href="/places/<%= place["id"] %>"><%= place["name"] %></a>
     </li>
    <% end %>
 </ul>

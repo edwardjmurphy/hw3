@@ -1,11 +1,12 @@
 <%= form_with :model => @place do |form| %>
+<h2>New Place Form</h2>
+
+I visited ...
   <p>
-    <%= form.label "city", "City" %>
-    <%= form.text_field "city" %>
-  </p>
-  <p>
-    <%= form.label "country" %>
-    <%= form.text_field "country" %>
+    <%= form.label "name", "City" %>
+    <%= form.text_field "name" %>
   </p>
   <%= form.submit %>
 <% end %>
+
+<p><a href="/places">Nevermind </a></p>
